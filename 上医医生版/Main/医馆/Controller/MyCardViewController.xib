@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyCardViewController" customModule="上医医生版" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="图层 6" translatesAutoresizingMaskIntoConstraints="NO" id="d46-ZW-tVf">
+                    <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGc-cY-5R3">
+                    <rect key="frame" x="81.666666666666671" y="417" width="250.66666666666663" height="36"/>
+                    <string key="text">慢性支气管炎,咳嗽,胃炎,肺癌,胆囊炎,
+高脂血症,心绞痛,咽炎,支气管扩张</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <color key="highlightedColor" red="0.46666666666666667" green="0.46666666666666667" blue="0.46666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="图层 5" translatesAutoresizingMaskIntoConstraints="NO" id="56P-m3-7yq">
+                    <rect key="frame" x="87" y="377" width="240" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="fm7-od-t99"/>
+                        <constraint firstAttribute="height" constant="20" id="tFV-p7-1aW"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XXX医院" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5CF-Ae-ngc">
+                    <rect key="frame" x="176.66666666666666" y="344" width="60.666666666666657" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XXX科  主治医师" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VYs-3M-cW5">
+                    <rect key="frame" x="149.66666666666666" y="311" width="114.66666666666666" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="无名氏" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBK-dz-VqD">
+                    <rect key="frame" x="176.33333333333334" y="272" width="61.333333333333343" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="图层 4" translatesAutoresizingMaskIntoConstraints="NO" id="N6t-K3-Cyk">
+                    <rect key="frame" x="154.33333333333334" y="151.66666666666666" width="105.33333333333334" height="105.33333333333334"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="N6t-K3-Cyk" secondAttribute="height" multiplier="1:1" id="ddZ-g8-Q3M"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="图层 7 边框" translatesAutoresizingMaskIntoConstraints="NO" id="Z7K-uK-Drb">
+                    <rect key="frame" x="143" y="501" width="128" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Z7K-uK-Drb" secondAttribute="height" multiplier="1:1" id="lhi-Fm-A1e"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="长按识别二维码关注我" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWV-Lo-cqD">
+                    <rect key="frame" x="125.33333333333333" y="647" width="163.33333333333337" height="19.333333333333371"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.62352941176470589" green="0.46666666666666667" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在家复诊咨询拿药，门诊信息及时推送" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xh-TT-l6v">
+                    <rect key="frame" x="68.333333333333343" y="674.33333333333337" width="277.66666666666663" height="19.333333333333371"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="图层 9" translatesAutoresizingMaskIntoConstraints="NO" id="FqQ-vg-Ebk">
+                    <rect key="frame" x="147.33333333333334" y="505.33333333333331" width="119.33333333333334" height="119.33333333333331"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="FqQ-vg-Ebk" secondAttribute="height" multiplier="1:1" id="vnz-EY-RRE"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VBK-dz-VqD" firstAttribute="centerX" secondItem="d46-ZW-tVf" secondAttribute="centerX" id="0kP-MV-Dxf"/>
+                <constraint firstItem="5CF-Ae-ngc" firstAttribute="centerX" secondItem="d46-ZW-tVf" secondAttribute="centerX" id="1Fg-LW-ZRj"/>
+                <constraint firstItem="FqQ-vg-Ebk" firstAttribute="centerY" secondItem="Z7K-uK-Drb" secondAttribute="centerY" id="6uc-4b-YRV"/>
+                <constraint firstItem="hGc-cY-5R3" firstAttribute="centerY" secondItem="d46-ZW-tVf" secondAttribute="centerY" constant="-40" id="9Jl-9h-0oH"/>
+                <constraint firstItem="N6t-K3-Cyk" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1:8.5" id="B80-c4-YjK"/>
+                <constraint firstItem="FqQ-vg-Ebk" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1:7.5" id="DMg-YW-Vvf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="d46-ZW-tVf" secondAttribute="trailing" id="IaE-ht-Ol1"/>
+                <constraint firstItem="N6t-K3-Cyk" firstAttribute="centerX" secondItem="d46-ZW-tVf" secondAttribute="centerX" id="K8p-km-pfI"/>
+                <constraint firstItem="ZWV-Lo-cqD" firstAttribute="centerX" secondItem="d46-ZW-tVf" secondAttribute="centerX" id="Kaa-wR-PJ1"/>
+                <constraint firstItem="Z7K-uK-Drb" firstAttribute="centerY" secondItem="d46-ZW-tVf" secondAttribute="centerY" constant="90" id="Mf3-Dv-Wqw"/>
+                <constraint firstItem="56P-m3-7yq" firstAttribute="centerX" secondItem="d46-ZW-tVf" secondAttribute="centerX" id="MpR-Mx-DRo"/>
+                <constraint firstItem="hGc-cY-5R3" firstAttribute="centerX" secondItem="d46-ZW-tVf" secondAttribute="centerX" id="Ot9-z6-z7u"/>
+                <constraint firstItem="d46-ZW-tVf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="QIO-dq-wfH"/>
+                <constraint firstItem="5CF-Ae-ngc" firstAttribute="top" secondItem="VYs-3M-cW5" secondAttribute="bottom" constant="15" id="T4o-IL-alf"/>
+                <constraint firstItem="Z7K-uK-Drb" firstAttribute="centerX" secondItem="d46-ZW-tVf" secondAttribute="centerX" id="Wq1-bX-tco"/>
+                <constraint firstItem="d46-ZW-tVf" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="X37-BB-fsQ"/>
+                <constraint firstItem="56P-m3-7yq" firstAttribute="top" secondItem="5CF-Ae-ngc" secondAttribute="bottom" constant="15" id="bwm-2q-G8I"/>
+                <constraint firstItem="FqQ-vg-Ebk" firstAttribute="centerX" secondItem="d46-ZW-tVf" secondAttribute="centerX" id="fke-SV-ioP"/>
+                <constraint firstItem="VYs-3M-cW5" firstAttribute="centerX" secondItem="d46-ZW-tVf" secondAttribute="centerX" id="h7O-Ub-qqa"/>
+                <constraint firstItem="3xh-TT-l6v" firstAttribute="centerX" secondItem="d46-ZW-tVf" secondAttribute="centerX" id="jOY-Yx-dzV"/>
+                <constraint firstItem="3xh-TT-l6v" firstAttribute="top" secondItem="ZWV-Lo-cqD" secondAttribute="bottom" constant="8" id="k3V-xn-fTS"/>
+                <constraint firstItem="VYs-3M-cW5" firstAttribute="top" secondItem="VBK-dz-VqD" secondAttribute="bottom" constant="15" id="krS-xy-VeN"/>
+                <constraint firstItem="VBK-dz-VqD" firstAttribute="top" secondItem="N6t-K3-Cyk" secondAttribute="bottom" constant="15" id="r6O-2G-wXA"/>
+                <constraint firstItem="ZWV-Lo-cqD" firstAttribute="top" secondItem="Z7K-uK-Drb" secondAttribute="bottom" constant="18" id="w4d-zD-ZR8"/>
+                <constraint firstItem="d46-ZW-tVf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="xlw-My-rRh"/>
+                <constraint firstItem="Z7K-uK-Drb" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1:7" id="yPs-8e-Z7r"/>
+                <constraint firstItem="hGc-cY-5R3" firstAttribute="top" secondItem="56P-m3-7yq" secondAttribute="bottom" constant="20" id="zKx-ej-wml"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="131.8840579710145" y="132.58928571428572"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="图层 4" width="79.333335876464844" height="79.333335876464844"/>
+        <image name="图层 5" width="106.66666412353516" height="18"/>
+        <image name="图层 6" width="414" height="671.66668701171875"/>
+        <image name="图层 7 边框" width="121.33333587646484" height="121.33333587646484"/>
+        <image name="图层 9" width="102" height="101.66666412353516"/>
+    </resources>
+</document>

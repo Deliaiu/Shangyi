@@ -1,0 +1,72 @@
+PODS:
+  - Alamofire (4.8.2)
+  - BSText (1.0.3):
+    - YYImage
+  - EmptyDataSet-Swift (4.2.0)
+  - ESPullToRefresh (2.9)
+  - ImagePicker (3.1.0)
+  - IQKeyboardManagerSwift (6.4.0)
+  - JXSegmentedView (0.0.19)
+  - KeychainSwift (16.0.1)
+  - Kingfisher (5.7.0)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - ReachabilitySwift (4.3.1)
+  - SnapKit (5.0.0)
+  - SwiftyJSON (5.0.0)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - BSText
+  - EmptyDataSet-Swift
+  - ESPullToRefresh
+  - ImagePicker
+  - IQKeyboardManagerSwift
+  - JXSegmentedView
+  - KeychainSwift
+  - Kingfisher
+  - NVActivityIndicatorView
+  - ReachabilitySwift
+  - SnapKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BSText
+    - EmptyDataSet-Swift
+    - ESPullToRefresh
+    - ImagePicker
+    - IQKeyboardManagerSwift
+    - JXSegmentedView
+    - KeychainSwift
+    - Kingfisher
+    - NVActivityIndicatorView
+    - ReachabilitySwift
+    - SnapKit
+    - SwiftyJSON
+    - YYImage
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BSText: af475fef7bbad98c5cbd8b930158f8768880284f
+  EmptyDataSet-Swift: 1fa0b35f530a35f852ecb2b53564728b0c300aaf
+  ESPullToRefresh: ce058a36454a5032519cc9d8b45da217728cf104
+  ImagePicker: db1fd7626337b2577c523bef5f499bbbe5a37079
+  IQKeyboardManagerSwift: ed9b04ee0e3067ffba543283462d619f944b05e5
+  JXSegmentedView: 6e22381bd1e6f0767fc078bef1947b13b2d337a1
+  KeychainSwift: 4209611373ca4a098e09b1e547eebd87c544dcc4
+  Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: 125927f46b4685a653248299570d873790c9b5d9
+
+COCOAPODS: 1.7.1
